@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "cotham";
+    src: url(CothamSans.otf);
+}
+
+body, h1{
+    -webkit-transition: background-color 1.5s, font-size 1s, margin-top 500ms; 
+    transition: background-color 1.5s, font-size 1s, margin-top 500ms;
+}
+
+h1{
+    font-family: "cotham", sans-serif;
+    font-size:24vw;
+    text-align: center;
+}
+
+@media screen and (orientation: landscape) {
+    body {
+        background-color: #69e0b8;
+    }
+    
+    .paysage{
+        margin-top:15vh;
+    }
+    
+    .portrait{
+        margin-top:-50vh;
+    }
+    
+}
+
+@media screen and (orientation: portrait) {
+    body {
+        background-color: #6d94ed;
+    }
+    
+    .portrait{
+        margin-top:15vh;
+    }
+    
+    .paysage{
+        margin-top:80vh;
+    }
+    
+    
+}
