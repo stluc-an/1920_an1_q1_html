@@ -1,0 +1,50 @@
+html, body{
+    padding:0;
+    margin:0;
+    
+    
+}
+
+#main{
+    position:relative;
+    background-color: yellow;
+    padding:100px;
+}
+
+.super{
+    position:absolute;
+}
+
+.super img{
+    max-width: 98%;
+}
+
+#img2{
+    right:5%;
+}
+
+
+
+
+.blocimage{
+    
+    height:50vh;
+    
+    background-image: url(png.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    
+}
+
+#contenu{
+    display:none;
+    width: 50vw;
+    background-color: aquamarine;
+    margin: auto;
+    text-align: justify;
+}
+
+#contenu img{
+    max-width: 55%;
+    opacity: 1.0;
+}
