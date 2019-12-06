@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "cotham";
+    src: url(CothamSans.otf);
+}
+
+body, h1{
+    -webkit-transition: background-color 1.5s, font-size 1s, margin-top 500ms; 
+    
+    transition: background-color 1.5s, font-size 1s, margin-top 500ms;
+}
+
+h1{
+    font-family: "cotham", sans-serif;
+    font-size:24vw;
+    text-align: center;
+    display : inline-block;
+    width : 20vw;
+    border:2px solid pink;
+}
+
+@media (min-width: 400px) {
+    #c, #b, #a, #d{
+        display:inline-block;
+    }
+}
+
+@media (min-width: 700px) {
+    #d{
+        display:none;
+    }
+    
+    #c, #b, #a{
+        display:inline-block;
+    }
+}
+
+@media (min-width: 1000px) {
+    #c, #d{
+        display:none;
+    }
+    
+    #b, #a{
+        display:inline-block;
+    }
+}
+
+@media (min-width: 1300px) {
+    #b, #c, #d{
+        display:none;
+    }
+    
+    #a{
+        display:inline-block;
+    }
+}
+
+@media (min-width: 1400px) {
+    #a, #b, #c, #d{
+        display:none;
+    }
+}
